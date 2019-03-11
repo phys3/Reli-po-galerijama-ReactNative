@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Alert } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import { Permissions } from 'expo-permissions';
 
@@ -16,7 +16,8 @@ export default class Barscreen extends React.Component {
     let { status } = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({ hasPermissionsGranted: (status === 'granted') });
   }
-  _handleBarCodeRead = () => this.props.navigation.navigate('Relimain');
+
+
 
   render() {
     const { hasCameraPermission } = this.state;
@@ -29,7 +30,10 @@ export default class Barscreen extends React.Component {
     return (
       <View style={{ flex: 1 }}>
         <BarCodeScanner
-          onBarCodeRead={this._handleBarCodeRead}
+          onBarCodeRead={(data) => {
+            {this.props.navigation.navigate('Relimain');
+              Alert.alert(JSON.stringify(data.data));
+          }}}
           barCodeTypes={[
             BarCodeScanner.Constants.BarCodeType.qr,
             BarCodeScanner.Constants.BarCodeType.pdf417,
