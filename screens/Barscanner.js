@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Alert } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import { Permissions } from 'expo-permissions';
 
+const galerije = ["gal1", "gal2"];
+
 export default class Barscreen extends React.Component {
   state = {
     hasPermissionsGranted: null,
@@ -31,8 +33,12 @@ export default class Barscreen extends React.Component {
       <View style={{ flex: 1 }}>
         <BarCodeScanner
           onBarCodeRead={(data) => {
-            {this.props.navigation.navigate('Relimain');
-              Alert.alert(JSON.stringify(data.data));
+            {
+              for (let i in galerije) {
+                if (galerije[i] == data.data) {
+                  Alert.alert("nice");
+                  this.props.navigation.navigate('Relimain');
+                }}
           }}}
           barCodeTypes={[
             BarCodeScanner.Constants.BarCodeType.qr,
