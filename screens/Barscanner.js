@@ -37,7 +37,7 @@ export default class Barscreen extends React.Component {
             {
               for (let i in galerije) {
                 if (galerije[i] == data.data) {
-                  AsyncStorage.setItem('galsca', 'gal1');
+                  AsyncStorage.setItem('galsca', data.data);
                   
                   AsyncStorage.getItem('galsca').then((value) => {
                     Alert.alert(JSON.stringify(value));
