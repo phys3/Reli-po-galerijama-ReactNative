@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, Text, View, Alert, AsyncStorage } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
 import { Permissions } from 'expo-permissions';
 
 const galerije = ["gal1", "gal2"];
+
 
 export default class Barscreen extends React.Component {
   state = {
@@ -36,7 +37,12 @@ export default class Barscreen extends React.Component {
             {
               for (let i in galerije) {
                 if (galerije[i] == data.data) {
-                  Alert.alert("nice");
+                  AsyncStorage.setItem('galsca', 'gal1');
+                  
+                  AsyncStorage.getItem('galsca').then((value) => {
+                    Alert.alert(JSON.stringify(value));
+                  });
+                  
                   this.props.navigation.navigate('Relimain');
                 }}
           }}}
