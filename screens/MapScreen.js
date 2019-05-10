@@ -56,23 +56,7 @@ export default class MapScreen extends React.Component {
                 showsUserLocation={true}
                 customMapStyle={[
                   {
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                      {
-                        "color": "#f9f9f9"
-                      }
-                    ]
-                  },
-                  {
-                    "elementType": "geometry.stroke",
-                    "stylers": [
-                      {
-                        "color": "#d57bc5"
-                      }
-                    ]
-                  },
-                  {
-                    "elementType": "labels.icon",
+                    "featureType": "administrative",
                     "stylers": [
                       {
                         "visibility": "off"
@@ -80,11 +64,10 @@ export default class MapScreen extends React.Component {
                     ]
                   },
                   {
-                    "featureType": "administrative",
-                    "elementType": "geometry.fill",
+                    "featureType": "landscape",
                     "stylers": [
                       {
-                        "color": "#f9f9f9"
+                        "visibility": "simplified"
                       }
                     ]
                   },
@@ -93,36 +76,15 @@ export default class MapScreen extends React.Component {
                     "elementType": "geometry.fill",
                     "stylers": [
                       {
-                        "color": "#f9f9f9"
+                        "color": "#dfc7e2"
                       }
                     ]
                   },
                   {
-                    "featureType": "landscape.man_made",
-                    "elementType": "geometry.fill",
+                    "featureType": "landscape.natural.landcover",
                     "stylers": [
                       {
-                        "color": "#f9f9f9"
-                      },
-                      {
-                        "weight": 4.5
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "landscape.natural",
-                    "stylers": [
-                      {
-                        "visibility": "off"
-                      }
-                    ]
-                  },
-                  {
-                    "featureType": "landscape.natural",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                      {
-                        "color": "#f9f9f9"
+                        "visibility": "simplified"
                       }
                     ]
                   },
@@ -131,12 +93,73 @@ export default class MapScreen extends React.Component {
                     "elementType": "geometry.fill",
                     "stylers": [
                       {
-                        "color": "#f9f9f9"
+                        "color": "#dfc7e2"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "landscape.natural.landcover",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                      {
+                        "color": "#dfc7e2"
                       }
                     ]
                   },
                   {
                     "featureType": "landscape.natural.terrain",
+                    "stylers": [
+                      {
+                        "visibility": "on"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "landscape.natural.terrain",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#dfc7e2"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "landscape.natural.terrain",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                      {
+                        "color": "#dfc7e2"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.fill",
+                    "stylers": [
+                      {
+                        "color": "#ffffff"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": [
+                      {
+                        "color": "#dfc7e2"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "transit",
                     "stylers": [
                       {
                         "visibility": "off"
