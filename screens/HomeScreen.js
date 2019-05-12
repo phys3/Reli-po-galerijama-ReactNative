@@ -1,4 +1,5 @@
 import React from 'react';
+import { Font } from 'expo';
 import {
   Image,
   StyleSheet,
@@ -54,6 +55,8 @@ const RootStack = createStackNavigator(
 );
 const AppContainer = createAppContainer(RootStack);
 export default class HomeScreen extends React.Component {
+  
+  
   static navigationOptions = {
     header: null,
   };
