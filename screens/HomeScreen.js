@@ -6,6 +6,7 @@ import {
   Text,
   View,
   TouchableOpacity,
+  ScrollView,
 } from 'react-native';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import PulaScreen from '../screens/Pula';
@@ -20,12 +21,24 @@ class DomaScreen extends React.Component {
   };
   render() {
     return (
-      <View style={styles.container}>
-            <Image
-              source={require('../assets/images/relpogaldog2018.jpg')}
-              style={styles.welcomeImage}
-            />
-            <View style={{ flex: 2,  justifyContent: 'space-evenly' }}>
+      <ScrollView style={styles.container}>
+
+            <View style={{flex: 1, paddingTop: 58, paddingLeft: 25, paddingRight: 25, }}>
+              <Text style={{ textAlign: 'center', fontSize: 28, fontWeight: 'bold', color: '#8b66ac', borderColor: '#8b66ac', borderWidth: 3, borderRadius: 12,}}>
+                RELI PO GALERIJAMA
+              </Text>
+              <Text style={{paddingTop: 20, paddingBottom: 20, fontSize: 16, textAlign: 'center', }}>
+              Reli po galerijama je prva kulturno-umjetnička manifestacija koja okuplja i mapira galerije u hrvatskim gradovima kako bi umjetnicima i umjetničkim prostorima pružila veću vidljivost. Manifestacija umrežuje čak 50 galerija u tri grada, Zagrebu, Rijeci i Puli, a posjetiteljima u jednom danu pruža priliku vidjeti više izložbi nego bilo koji drugi dan u godini.
+              </Text>
+              <Text style={{ textAlign: 'center', fontSize: 22, fontWeight: 'bold', color: '#8b66ac', borderColor: '#8b66ac', borderWidth: 3, borderRadius: 12,}}>
+                PRAVILA IGRE
+              </Text>
+              <Text style={{paddingTop: 20, paddingBottom: 20, fontSize: 16, textAlign: 'center', }}>
+              Pozivamo vas da obilazite galerije, razgledavate izložbe i družite se na završnoj lokaciji. Ako uspiješ posjetiti sve galerije označene na mapi, osvajaš Povelju časti za poseban doprinos u kulturi. 
+              </Text>
+            </View>
+            
+            <View style={{ flex: 2,  justifyContent: 'space-evenly', height: 300, }}>
               <TouchableOpacity onPress={() => this.props.navigation.navigate('Pula')}>
                 <Text style={styles.button}>Pula</Text>
               </TouchableOpacity>
@@ -37,7 +50,7 @@ class DomaScreen extends React.Component {
               </TouchableOpacity>
                 
             </View>
-        </View>
+        </ScrollView>
     );
   }
 }
@@ -72,12 +85,11 @@ const styles = StyleSheet.create({
   button: {
     alignSelf: 'center',
     width: '70%',
-    backgroundColor: '#8b66ac',
-    borderColor: 'white',
-    borderWidth: 1,
+    borderColor: '#8b66ac',
+    borderWidth: 3,
     borderRadius: 12,
-    color: 'white',
-    fontSize: 24,
+    color: '#8b66ac',
+    fontSize: 28,
     fontWeight: 'bold',
     overflow: 'hidden',
     padding: 12,
