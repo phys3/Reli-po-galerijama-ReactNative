@@ -1,5 +1,4 @@
 import React from 'react';
-import { Font } from 'expo';
 import {
   Image,
   StyleSheet,
@@ -24,9 +23,14 @@ class DomaScreen extends React.Component {
       <ScrollView style={styles.container}>
 
             <View style={{flex: 1, paddingTop: 58, paddingLeft: 25, paddingRight: 25, }}>
-              <Text style={{ textAlign: 'center', fontSize: 28, fontWeight: 'bold', color: '#8b66ac', borderColor: '#8b66ac', borderWidth: 3, borderRadius: 12,}}>
-                RELI PO GALERIJAMA
-              </Text>
+              <View>
+                <View style={{flex: 1, flexDirection: 'row', justifyContent: 'space-between', }}>
+                <Image source={require('../assets/images/relsix.jpg')} />
+                <Text style={{ fontSize: 50, color: '#8b66ac', fontWeight: '500', paddingRight: 20, paddingTop: 40, }}>RELI</Text>
+                </View>
+                <Text style={{fontSize: 50, color: '#8b66ac', fontWeight: '500', paddingLeft: 70, }}>PO</Text>
+                <Text style={{fontSize: 50, color: '#8b66ac', fontWeight: '500', }}>GALERIJAMA</Text>
+              </View>
               <Text style={{paddingTop: 20, paddingBottom: 20, fontSize: 16, textAlign: 'center', }}>
               Reli po galerijama je prva kulturno-umjetnička manifestacija koja okuplja i mapira galerije u hrvatskim gradovima kako bi umjetnicima i umjetničkim prostorima pružila veću vidljivost. Manifestacija umrežuje čak 50 galerija u tri grada, Zagrebu, Rijeci i Puli, a posjetiteljima u jednom danu pruža priliku vidjeti više izložbi nego bilo koji drugi dan u godini.
               </Text>
