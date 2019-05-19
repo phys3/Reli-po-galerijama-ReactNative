@@ -16,10 +16,6 @@ export default class MapScreen extends React.Component {
       this._getLocationAsync();
     }
   
-    _handleMapRegionChange = mapRegion => {
-      this.setState({ mapRegion });
-    };
-  
     _getLocationAsync = async () => {
      let { status } = await Permissions.askAsync(Permissions.LOCATION);
      if (status !== 'granted') {
@@ -134,6 +130,23 @@ export default class MapScreen extends React.Component {
                   },
                   {
                     "featureType": "poi",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi.attraction",
+                    "stylers": [
+                      {
+                        "visibility": "off"
+                      }
+                    ]
+                  },
+                  {
+                    "featureType": "poi.attraction",
+                    "elementType": "labels",
                     "stylers": [
                       {
                         "visibility": "off"
