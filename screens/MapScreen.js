@@ -185,7 +185,7 @@ export default class MapScreen extends React.Component {
         <MapView.Marker
             coordinate={{latitude: 45.8099598 ,
             longitude: 15.9871835}}
-            title={"HDLU"}
+            title={"HDLU - Bačva / PM / Prsten"}
             description={"Trg žrtava fašizma 16"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
@@ -204,16 +204,6 @@ export default class MapScreen extends React.Component {
          </View>
          </MapView.Marker>
 
-         <MapView.Marker
-            coordinate={{latitude: 45.8109741 ,
-            longitude: 15.9980399}}
-            title={"Galerija Karas"}
-            description={"Ul. kralja Zvonimira 58"}
-         >
-         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
-         </View>
-         </MapView.Marker>
 
          <MapView.Marker
             coordinate={{latitude: 45.8084597 ,
@@ -222,7 +212,18 @@ export default class MapScreen extends React.Component {
             description={"Ulica Matice Hrvatske 2"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>4</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
+         </View>
+         </MapView.Marker>
+
+         <MapView.Marker
+            coordinate={{latitude: 45.804113 ,
+            longitude: 15.965468}}
+            title={"Galerija SC"}
+            description={"Savska 25"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
          </View>
          </MapView.Marker>
 
@@ -266,18 +267,40 @@ export default class MapScreen extends React.Component {
             description={"Ilica 92"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
+         </View>
+         </MapView.Marker>
+
+         <MapView.Marker
+            coordinate={{latitude: 45.813557 ,
+            longitude: 15.968641}}
+            title={"Studio Lapo Lapo"}
+            description={"Ilica 50"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
          <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>8</Text>
+         </View>
+         </MapView.Marker>
+
+         <MapView.Marker
+            coordinate={{latitude: 45.812321 ,
+            longitude: 15.948951 }}
+            title={"Galerija VN"}
+            description={"Ilica 163 a"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>10</Text>
          </View>
          </MapView.Marker>
 
          <MapView.Marker
             coordinate={{latitude: 45.8125555 ,
             longitude: 15.9652085 }}
-            title={"Radiona 69"}
+            title={"Otvoreni studio keramike"}
             description={"Ilica 69"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>11</Text>
          </View>
          </MapView.Marker>
 
@@ -288,7 +311,7 @@ export default class MapScreen extends React.Component {
             description={"Tkalčićeva 61"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>10</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>12</Text>
          </View>
          </MapView.Marker>
 
@@ -299,18 +322,29 @@ export default class MapScreen extends React.Component {
             description={"Teslina 16"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>11</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>13</Text>
          </View>
          </MapView.Marker>
 
          <MapView.Marker
-            coordinate={{latitude: 45.8098056 ,
-            longitude: 15.9812244 }}
+            coordinate={{latitude:  45.809724 ,
+            longitude: 15.981296 }}
             title={"Regeneracija"}
             description={"Boškovićeva 7b"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>12</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>14</Text>
+         </View>
+         </MapView.Marker>
+
+         <MapView.Marker
+            coordinate={{latitude: 45.808356 ,
+            longitude: 16.017557 }}
+            title={"Galerija Događanja"}
+            description={"Ivanićgradska 41a"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>15</Text>
          </View>
          </MapView.Marker>
 
@@ -321,7 +355,7 @@ export default class MapScreen extends React.Component {
             description={"Ulica Augusta Šenoe 11"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>13</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>16</Text>
          </View>
          </MapView.Marker>
 
@@ -332,31 +366,11 @@ export default class MapScreen extends React.Component {
             description={"Ilica 37"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>14</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>17</Text>
          </View>
          </MapView.Marker>
 
-         <MapView.Marker
-            coordinate={{latitude: 45.8091324 ,
-            longitude: 15.9775482 }}
-            title={"Moderna Galerija"}
-            description={" Ul. Andrije Hebranga 1"}
-         >
-         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>15</Text>
-         </View>
-         </MapView.Marker>
-
-         <MapView.Marker
-            coordinate={{latitude: 45.8063989 ,
-            longitude: 15.9648377 }}
-            title={"Galerija Siva"}
-            description={"Ul. Luigija Pierottia 11"}
-         >
-         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>16</Text>
-         </View>
-         </MapView.Marker>
+         
 
          <MapView.Marker
             coordinate={{latitude: 44.8685895 ,
@@ -370,13 +384,24 @@ export default class MapScreen extends React.Component {
          </MapView.Marker>
 
          <MapView.Marker
+            coordinate={{latitude: 44.8718108 ,
+            longitude: 13.8489559 }}
+            title={"MMC Luka"}
+            description={"Istarska 30"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>2</Text>
+         </View>
+         </MapView.Marker>
+
+         <MapView.Marker
             coordinate={{latitude: 44.8700754 ,
             longitude: 13.8424204 }}
             title={"Galerija Cvajner"}
             description={"Forum 2"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>2</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
          </View>
          </MapView.Marker>
 
@@ -387,18 +412,18 @@ export default class MapScreen extends React.Component {
             description={"Kandlerova 14"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>4</Text>
          </View>
          </MapView.Marker>
 
          <MapView.Marker
-            coordinate={{latitude: 44.867543 ,
-            longitude: 13.8469819 }}
+            coordinate={{latitude: 44.870911 ,
+            longitude: 13.842763 }}
             title={"Gradska Galerija Antun Motika"}
-            description={"Laginjina 5"}
+            description={"Kandlerova 8"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>4</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>5</Text>
          </View>
          </MapView.Marker>
 
@@ -409,7 +434,7 @@ export default class MapScreen extends React.Component {
             description={"Kapitolinski trg 1"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>5</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>6</Text>
          </View>
          </MapView.Marker>
 
@@ -420,7 +445,7 @@ export default class MapScreen extends React.Component {
             description={"Flavijevska Ulica"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>6</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>7</Text>
          </View>
          </MapView.Marker>
 
@@ -431,7 +456,7 @@ export default class MapScreen extends React.Component {
             description={"Carrarina 8"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>7</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>8</Text>
          </View>
          </MapView.Marker>
 
@@ -442,7 +467,7 @@ export default class MapScreen extends React.Component {
             description={"De Villeov uspon 8"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>8</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
          </View>
          </MapView.Marker>
 
@@ -453,18 +478,18 @@ export default class MapScreen extends React.Component {
             description={"Forum"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>10</Text>
          </View>
          </MapView.Marker>
 
          <MapView.Marker
-            coordinate={{latitude: 44.8673793 ,
-            longitude: 13.8531455 }}
+            coordinate={{latitude: 44.8666724 ,
+            longitude: 13.8531525 }}
             title={"Studentska Galerija"}
-            description={"Sv. Mihovila 3"}
+            description={"Preradovićeva 28A"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>10</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>11</Text>
          </View>
          </MapView.Marker>
 
@@ -475,7 +500,7 @@ export default class MapScreen extends React.Component {
             description={"Ljudevita Gaja 3"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>11</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>12</Text>
          </View>
          </MapView.Marker>
 
@@ -486,10 +511,21 @@ export default class MapScreen extends React.Component {
             description={"Ljudevita Gaja 3"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>12</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>13</Text>
          </View>
          </MapView.Marker>
 
+         <MapView.Marker
+            coordinate={{latitude: 44.863197 ,
+            longitude: 13.845015 }}
+            title={"KarloBar"}
+            description={"Ljudevita Gaja 3"}
+         >
+         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>14</Text>
+         </View>
+         </MapView.Marker>
+        
          <MapView.Marker
             coordinate={{latitude: 44.863512 ,
             longitude: 13.844769 }}
@@ -497,18 +533,18 @@ export default class MapScreen extends React.Component {
             description={"Ljudevita Gaja 3"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>13</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>15</Text>
          </View>
          </MapView.Marker>
          
          <MapView.Marker
             coordinate={{latitude: 45.3278641 ,
             longitude: 14.4401113 }}
-            title={"Galerija Kortil"}
+            title={"Galerija SKC"}
             description={"Kružna 8"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>1</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
          </View>
          </MapView.Marker>
          
@@ -519,7 +555,7 @@ export default class MapScreen extends React.Component {
             description={"Korzo 24"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>2</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>8</Text>
          </View>
          </MapView.Marker>
          
@@ -530,7 +566,7 @@ export default class MapScreen extends React.Component {
             description={"Frana Supila 6"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>2</Text>
          </View>
          </MapView.Marker>
          
@@ -541,18 +577,7 @@ export default class MapScreen extends React.Component {
             description={"Verdijeva ul. 19 b"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>4</Text>
-         </View>
-         </MapView.Marker>
-         
-         <MapView.Marker
-            coordinate={{latitude: 45.327179 ,
-            longitude: 14.449395 }}
-            title={"Atelje"}
-            description={"Križanićeva 2a"}
-         >
-         <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>5</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>3</Text>
          </View>
          </MapView.Marker>
          
@@ -563,7 +588,7 @@ export default class MapScreen extends React.Component {
             description={"Pod Voltun 4"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>6</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>4</Text>
          </View>
          </MapView.Marker>
          
@@ -574,7 +599,7 @@ export default class MapScreen extends React.Component {
             description={"Marka Marulića 10"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>7</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>5</Text>
          </View>
          </MapView.Marker>
          
@@ -585,7 +610,7 @@ export default class MapScreen extends React.Component {
             description={"Erazma Barčića 9a"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>8</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>6</Text>
          </View>
          </MapView.Marker>
          
@@ -596,18 +621,18 @@ export default class MapScreen extends React.Component {
             description={"Krešimirova 60g"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>9</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>7</Text>
          </View>
          </MapView.Marker>
          
          <MapView.Marker                                                                                                                                                              
-            coordinate={{latitude:  45.327965 ,
-            longitude: 14.439476 }}
-            title={"Galerija SKC"}
+            coordinate={{latitude:  45.325817 ,
+            longitude: 14.450878 }}
+            title={"Galerija Kortil"}
             description={"Strossmayerova 1"}
          >
          <View style={{ flex: 1, width: 27, height: 27, borderRadius: 50, backgroundColor: '#9c4ddd', }}>
-         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>10</Text>
+         <Text style={{textAlign: 'center', color: '#ffffff', fontFamily: 'Baloo', fontSize: 19,}}>1</Text>
          </View>
          </MapView.Marker>
 
